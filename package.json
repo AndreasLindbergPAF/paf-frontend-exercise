@@ -1,14 +1,48 @@
 {
+  "private": true,
   "name": "paf-frontend-exercise",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.1.0",
+  "description": "Paf frontend exercise",
   "author": "Johan Westling",
+  "contributors": [
+    "Johan Westling",
+    "Andreas Lindberg",
+    "Olof Schröder"
+  ],
   "license": "ISC",
   "main": "index.html",
+  "browser": "index.html",
   "scripts": {
-    "start": "parcel $npm_package_main"
+    "start": "parcel ./index.html"
   },
-  "dependencies": {
-    "parcel": "^1.12.4"
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/plugin-transform-runtime": "^7.12.1",
+    "@babel/preset-typescript": "^7.12.7",
+    "cross-var": "^1.1.0",
+    "parcel": "^1.12.4",
+    "parcel-plugin-asset-copier": "^1.1.0"
+  },
+  "assetsPath": "static",
+  "browserslist": [
+    "> 1%",
+    "not dead"
+  ],
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-typescript"
+    ],
+    "plugins": [
+      "@babel/plugin-transform-runtime"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/AndreasLindbergPAF/paf-frontend-exercise.git"
+  },
+  "homepage": "https://github.com/AndreasLindbergPAF/paf-frontend-exercise",
+  "bugs": {
+    "url": "https://github.com/AndreasLindbergPAF/paf-frontend-exercise/issues"
   }
 }
