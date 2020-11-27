@@ -1,7 +1,5 @@
 .cache/
 dist/*
-!dist/api/
-!dist/resources/
 node_modules/
 *.xd
 *.tgz
