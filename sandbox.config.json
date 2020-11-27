@@ -1,5 +1,5 @@
 {
-  "template": "node",
+  "template": "parcel",
   "infiniteLoopProtection": true,
   "view": "browser",
   "container": {
