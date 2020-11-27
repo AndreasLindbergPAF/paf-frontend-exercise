@@ -25,7 +25,16 @@
     "parcel-plugin-webcomponents": "^1.2.3"
   },
   "staticFiles": {
-    "staticPath": "static"
+    "staticPath": [
+      {
+        "staticPath": "api",
+        "staticOutDir": "api"
+      },
+      {
+        "staticPath": "resources",
+        "staticOutDir": "resources"
+      }
+    ]
   },
   "browserslist": [
     "> 1%",
