@@ -1,8 +1,4 @@
 {
   "template": "parcel",
-  "infiniteLoopProtection": true,
-  "view": "browser",
-  "container": {
-    "startScript": "start"
-  }
+  "startScript": "start"
 }
