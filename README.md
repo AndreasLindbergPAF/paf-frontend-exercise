@@ -54,3 +54,8 @@ This is the web based setup that only requires a modern browser to get you start
 
 1. [Open a new Codesandbox](https://codesandbox.io/s/github/AndreasLindbergPAF/paf-frontend-exercise/tree/master/?fontsize=14&hidenavigation=1&theme=dark).
 1. When done, send us your Codesandbox-link.
+
+## Optional
+- Author your code in TypeScript
+   - Change file extension from `.js` to `.ts` on `src/scripts.js`
+   - Change references from `src/scripts.js` to `src/scripts.ts` in `index.html`
