@@ -2,21 +2,23 @@
 
 ## Objective
 
-Translate the provided [design mocks](./design/) into a working solution with HTML, CSS and JavaScript.  
-**Note:** You are allowed to make minor adjustments to the layout if needed.
+Translate the provided [design mocks](./design/) into a working solution with HTML, CSS and JavaScript, without any frameworks.  
 
 ## Requirements
 
 1. Use HTML5 to produce a semantic information structure.
 1. Use CSS to produce the layout with a mobile first approach  
-   _Should support screen resolutions from atleast 320px up to atleast 1920px_
-1. Use Javascript to fetch JSON-data from the following url: ```/api/games/lists.json```.
-1. Use Javascript to generate the DOM based on the fetched JSON-data.
-1. Use native Web Components (but only where it's appropriate).
+   _Should support screen resolutions from small screens (320px+) up to big screens (1920px+)_
+1. Use Javascript to fetch JSON-data from the following url: ```/api/games/lists.json```
+1. Use Javascript to generate the elements/components based on the fetched JSON-data.
+1. Use atleast one native Web Component.
 1. Add a search/filter component based upon the JSON-data.
-   - It should have knowledge of previous searches  
-     and be persistent upon page reload
-   - It should filter what's rendered from the JSON-data.  
+   - Implement your own design for the search/filter component
+   - Should be a web component
+   - Should filter the JSON-data based on user input
+   - Should display up to 10 previous searches
+   - Should persist search history on reload  
+     _**Don't** use autocomplete="on"_
 
 **Author your solution in the following places:**  
 - `index.html`
@@ -32,7 +34,7 @@ There are two avaliable development environments
 ### Localhost
 
 This setup provides a development server to be used in your machine.  
-Prerequisites are **git** and **node.js** _(LTS)_
+Prerequisites are **node.js** _(LTS)_ (and **git** if you clone the repo)
 1. Install dependencies:
     ```bash
     npm ci
