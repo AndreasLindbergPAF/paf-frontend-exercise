@@ -54,3 +54,14 @@ This is the web based setup that only requires a modern browser to get you start
 
 1. [Open a new Codesandbox](https://codesandbox.io/s/github/AndreasLindbergPAF/paf-frontend-exercise/tree/master/?fontsize=14&hidenavigation=1&theme=dark).
 1. When done, send us your Codesandbox-link.
+
+## Evaluation
+Your code test will be evaluated against the following criteria:
+
+- Meets the stated requirements.
+- Ability to implement and adapt a given design to a responsive design
+- Simple over clever
+- Understanding of:
+  - React fundamentals
+  - TypeScript
+  - Immutability vs. mutability
