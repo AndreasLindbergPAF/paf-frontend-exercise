@@ -60,6 +60,7 @@ Your code test will be evaluated against the following criteria:
 
 - Meets the stated requirements.
 - Ability to implement and adapt a given design to a responsive design
+- Creativity shown in implementing a custom search feature
 - Simple over clever
 - Understanding of:
   - React fundamentals
