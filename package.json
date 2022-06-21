@@ -41,7 +41,8 @@
   ],
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "engines": {
-    "node": "^14.8 || ^16"
+    "node": "^14.8 || ^16",
+    "npm": ">6.14.8"
   },
   "repository": {
     "type": "git",
