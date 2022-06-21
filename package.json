@@ -3,7 +3,9 @@
   "name": "paf-frontend-exercise",
   "version": "2.0.0",
   "description": "Paf frontend exercise",
-  "author": "Johan Westling",
+  "homepage": "https://github.com/AndreasLindbergPAF/paf-frontend-exercise/#readme",
+  "bugs": "https://github.com/AndreasLindbergPAF/paf-frontend-exercise/issues",
+  "author": "Andreas Lindberg <andreas.lindberg@paf.com> (https://aboutpaf.com/)",
   "contributors": [
     "Johan Westling",
     "Andreas Lindberg",
