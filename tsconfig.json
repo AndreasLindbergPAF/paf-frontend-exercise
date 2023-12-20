@@ -1,34 +1,45 @@
 {
   "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig to read more about this file */
+
     "pretty": true,
+
+    /* Language and Environment */
     "target": "ESNext",
+
+    /* Modules */
     "module": "ESNext",
-    "moduleResolution": "node",
-    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "moduleResolution": "Bundler",
+    "moduleDetection": "force",
+    "types": [],
+
+    /* JavaScript Support */
+    "jsx": "react",
+    "allowJs": true,
+    "checkJs": true,
     "skipLibCheck": true,
-    "isolatedModules": true,
-    "resolveJsonModule": true,
-    "jsx": "react-jsx",
+
+    /* Emit */
+    "noEmit": true,
     "newLine": "lf",
+    "noEmitOnError": true,
+
+    /* Interop Constraints */
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type Checking */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitOverride": true,
+    "allowUnusedLabels": false,
+//    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
 
     "rootDir": ".",
-    "baseUrl": "./src",
-    "sourceMap": true,
-
-    "alwaysStrict": true,
-    "strict": true,
-    "noImplicitAny": true,
-    "noImplicitThis": true,
-
-    "removeComments": false,
-    "downlevelIteration": true,
-
-    "allowSyntheticDefaultImports": true,
-    "experimentalDecorators": true,
-    "useDefineForClassFields": true
+    "baseUrl": "./src"
   },
-  "include": [
-    "src/**/*.ts",
-    "src/**/*.tsx"
-  ]
+  "include": ["src/**/*"]
 }
